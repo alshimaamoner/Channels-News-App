@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Channels News</string>
+    <string name="Business">사업</string>
+    <string name="Egypt">이집트</string>
+    <string name="Entertainment">환대</string>
+    <string name="French">프랑스</string>
+    <string name="Health">건강</string>
+    <string name="Korea">대한민국</string>
+    <string name="Korean">대한민국</string>
+    <string name="Sport">스포츠</string>
+    <string name="Tech">기술</string>
+    <string name="menu_USA">미국</string>
+    <string name="title_activity_top_stories">주요 기사</string>
+    <string name="title_activity_topics">톱 헤드 라인</string>
+    <string name="topics">토픽</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Channels News</string>
+    <string name="Business">Affaires</string>
+    <string name="Egypt">Egypte</string>
+    <string name="Entertainment">Divertissement</string>
+    <string name="French">France</string>
+    <string name="Health">Santé</string>
+    <string name="Korea">Corée</string>
+    <string name="Korean">Corée</string>
+    <string name="Sport">Sport</string>
+    <string name="Tech">Technologie</string>
+    <string name="menu_USA">États Unis</string>
+    <string name="title_activity_top_stories">Meilleurs histoires</string>
+    <string name="topics">Les sujets</string>
+    <string name="title_activity_topics">Top titres</string>
+</resources>

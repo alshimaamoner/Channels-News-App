@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:layout_scrollFlags="scroll"
+    android:statusBarColor="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:statusBarColor="@color/colorPrimaryDark"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView android:id="@+id/channelss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         android:fontFamily="@font/lobster"
+        android:text="Channels News"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.Toolbar>
+        <android.support.design.widget.TabLayout
+            android:id="@+id/channelLayout"
+            android:layout_width="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="wrap_content"
+            app:tabTextColor="#0C0C0C"
+            android:layout_marginTop="0dp"
+            android:background="@color/colorPrimary"
+            app:tabSelectedTextColor="#fff"
+            app:tabMode="scrollable"
+            app:tabGravity="fill"
+            />
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <include layout="@layout/content_main2"
+        />
+</android.support.design.widget.CoordinatorLayout>

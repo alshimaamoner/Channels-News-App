@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/usa"
+            android:title="@string/menu_USA"
+            />
+        <item
+            android:id="@+id/eg"
+            android:title="@string/Egypt" />
+        <item
+            android:id="@+id/fr"
+            android:title="@string/French" />
+        <item
+            android:id="@+id/kr"
+            android:title="@string/Korean" />
+    </group>
+
+    <item android:title="@string/topics" >
+        <menu>
+            <item
+                android:title="@string/Sport"
+                android:id="@+id/sport"
+                />
+
+            <item
+                android:id="@+id/tech"
+                android:title="@string/Tech" />
+
+            <item
+                android:id="@+id/health"
+                android:title="@string/Health" />
+            <item
+                android:id="@+id/entertainment"
+                android:title="@string/Entertainment" />
+
+            <item
+                android:id="@+id/business"
+                android:title="@string/Business" />
+        </menu>
+    </item>
+
+</menu>
